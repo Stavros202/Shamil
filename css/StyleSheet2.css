@@ -1,0 +1,13 @@
+﻿/*table style*/ 
+
+body {
+}
+td img {
+    height:200px;width:200px;border:5px solid black;border-radius:5px
+}
+table{
+    align-content:center;border:none;background-color:transparent;vertical-align:central;align-items:center;
+}
+td {
+    height:250px;width:250px;vertical-align:central;align-content:center;align-items:center;padding-left:60px
+}
