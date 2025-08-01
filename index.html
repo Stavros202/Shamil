@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- back button-->
+        <A href="javascript:back()" id="backbtn" class="backbtn">&larr;</A>
+        <!-- Overlay content -->
+        <div id="con" class="overlay-content">
+            <a href="javascript:f1()">ABOUT US</a>
+            <hr>
+            <a href="javascript:f2()">LANGUAGE</a>
+        </div>
+        <div class="about-us" id="about" style="position:relative">
+            <img style="top: 0px; left: 260px; height: 80px; width: 80px" src="tele.png"><span class="info" id="text1">07504542290</span><br>
+            <img style="top: 140px; left: 270px; height: 60px; width: 60px" src="id.png"><span class="info" id="text2">shaml slewa</span><br>
+            <img style="top: 260px; left: 260px; height: 80px; width: 80px" src="location.png"><span class="info" id="text3">erbil,ankawa</span><br>
+        </div>
+        <div class="language" id="langu">
+            <a class="info" href="javascript:eng()">english</a>
+            <a class="info" href="javascript:arab()">العربية</a>
+            <a class="info" href="javascript:kurd()">كوردي</a>
+        </div>
+
+    </div>
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span style="font-size:75px;cursor:pointer;color:white;padding:5px;position:relative;left:850px" onclick="openNav()">&#9776;</span>
+    <!-- div to hold name and information-->
+    <div id="infoDIV" style="position:relative;top:5%;color:white">
+        <h1><span id="text4">SHAML CARPENTRY</span></h1><div id="line"></div>
+        <p id="textt" style="font-size:50px">our services indclude:<br />BEDROOMS&#9679;KITCHEN&#9679;DOORS<br />STAIRS&#9679;DECORATIONS</p>
+    </div>
+    <!-- div to hold the categories-->
+    <div id="category">
+        <a href="doors page.html">
+            <div class="categ" onclick="door()">
+                <img src="door/2016-04-23 18.22.36.jpg" class="catimg" /><br>
+                <span style="left:110px" class="catText" id="text5">doors</span>
+            </div>
+        </a>
+        <a href="kitchen page.html">
+            <div class="categ" onclick="kitchen()">
+                <img src="kitchen/2019-05-14 13.54.15.jpg" class="catimg" /> <br>
+                <span style="left:90px" class="catText" id="text6">kitchen</span>
+            </div>
+        </a>
+        <a href="bedrooms page.html">
+            <div class="categ" onclick="bedroom()">
+                <img src="bedrooms/2020-08-25 15.35.08.jpeg" class="catimg" /> <br>
+                <span style="left:60px" class="catText" id="text7">bedrooms</span>
+            </div>
+        </a>
+        <a href="stairs page.html">
+            <div class="categ">
+                <img src="stairs/2019-05-14 13.55.54.jpg" class="catimg" /><br>
+                <span style="left:105px" class="catText" id="text8">stairs</span>
+            </div>
+        </a>
+    </div>
+    <script src="js/JavaScript.js"></script>
+</body>
+</html>
